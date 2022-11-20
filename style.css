@@ -239,7 +239,7 @@ html{
     padding: 0 20px;
     margin: 0 10px;
     width: calc(33% - 20px);
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
