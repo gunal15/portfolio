@@ -241,11 +241,12 @@ html{
     width: calc(33% - 20px);
     height: 300px;
     display: flex;
+    flex: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #fff;
-   
+
   }
   
   .card-icon{
@@ -306,4 +307,29 @@ html{
       margin: 10px 0;
     }
   }
+
+  .socialmedia{
+    background-color: #2b2c2c;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+  }
+ .icon{
+     align-content: center;
+     text-decoration:none;
+     padding: 50px;
+     margin: 10px;
+     width: 30px;
+     height: 30px;
+     color: white;
+  }
+  .icon:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #171710;
+    box-shadow: 0 0 20px white;
+  }
+  
   
